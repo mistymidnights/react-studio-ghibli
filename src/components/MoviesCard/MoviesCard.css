@@ -1,3 +1,10 @@
+@import url("http://fonts.cdnfonts.com/css/hando-soft-trial");
+/* font-family: 'Hando Soft Trial', sans-serif; */
+@import url("http://fonts.cdnfonts.com/css/kids-text-display-2");
+/* font-family: 'KIDS Display', sans-serif;
+font-family: 'KIDS Text', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
+/* font-family: 'Yuji Mai', serif; */
 .image-container img {
   height: 500px;
 }
@@ -7,10 +14,12 @@
   width: 400px;
 }
 .movie-container h4 {
-  font-family: "Hando Soft Trial", Verdana;
-  font-size: 34px;
+  font-family: Hando Soft Trial, Verdana;
+  font-size: 30px;
+  line-height: 30px;
   color: #f7eabd;
   margin: 20px;
+  text-align: center;
 }
 .movie-container h3 {
   font-family: "Yuji Mai", serif;
@@ -19,11 +28,11 @@
   margin: 0;
 }
 .description {
-  font-family: "KIDS text", Verdana;
+  font-family: "KIDS Text", sans-serif;
   text-align: justify;
 }
 .production {
-  font-family: "Hando Soft Trial", Verdana;
+  font-family: "Hando Soft Trial", sans-serif;
   text-transform: uppercase;
   color: #f7eabd;
 }
