@@ -1,0 +1,13 @@
+.titleElement {
+  margin-bottom: 100px;
+  height: 400px;
+  width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/701164137081733201/1009523279406579732/anime-studio-ghibli-spirited-away-wallpaper-36012ff9aa18e89534fecd09f38f6190.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo {
+  height: 262px;
+  padding-bottom: 68px;
+}

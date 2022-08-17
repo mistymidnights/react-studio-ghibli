@@ -1,0 +1,29 @@
+.image-container img {
+  height: 500px;
+}
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.movie-container h4 {
+  font-family: "Hando Soft Trial", sans-serif;
+  font-size: 34px;
+  color: #f7eabd;
+  margin: 20px;
+}
+.movie-container h3 {
+  font-family: "Yuji Mai", serif;
+  font-size: 34px;
+  color: #f7eabd;
+  margin: 0;
+}
+.description {
+  font-family: "KIDS text";
+  text-align: justify;
+}
+.production {
+  font-family: "Hando Soft Trial", sans-serif;
+  text-transform: uppercase;
+  color: #f7eabd;
+}
