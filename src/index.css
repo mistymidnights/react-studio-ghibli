@@ -1,11 +1,11 @@
-@font-face {
-  font-family: "Hando Soft Trial", Verdana;
-  src: url(./assets/fonts/HandoSoftTrial-Regular.ttf);
-}
-@font-face {
-  font-family: "KIDS text", Verdana;
-  src: url(./assets/fonts/KIDSTextRegular.otf);
-}
+@import url("http://fonts.cdnfonts.com/css/hando-soft-trial");
+/* font-family: 'Hando Soft Trial', sans-serif; */
+@import url("http://fonts.cdnfonts.com/css/kids-text-display-2");
+/* font-family: 'KIDS Display', sans-serif;
+font-family: 'KIDS Text', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
+/* font-family: 'Yuji Mai', serif; */
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
