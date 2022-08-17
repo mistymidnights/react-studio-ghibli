@@ -6,8 +6,20 @@
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
+  height: 399px;
 }
 .logo {
   height: 262px;
   padding-bottom: 68px;
+}
+
+@media (max-width: 978px) {
+  .logo {
+    height: 144px;
+    padding-bottom: 80px;
+  }
+  .titleElement {
+    margin: 0;
+    height: 247px;
+  }
 }
