@@ -7,7 +7,7 @@
   width: 400px;
 }
 .movie-container h4 {
-  font-family: "Hando Soft Trial", sans-serif;
+  font-family: "Hando Soft Trial", Verdana;
   font-size: 34px;
   color: #f7eabd;
   margin: 20px;
@@ -19,11 +19,11 @@
   margin: 0;
 }
 .description {
-  font-family: "KIDS text";
+  font-family: "KIDS text", Verdana;
   text-align: justify;
 }
 .production {
-  font-family: "Hando Soft Trial", sans-serif;
+  font-family: "Hando Soft Trial", Verdana;
   text-transform: uppercase;
   color: #f7eabd;
 }
