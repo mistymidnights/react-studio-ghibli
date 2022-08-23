@@ -17,15 +17,16 @@ font-family: 'KIDS Text', sans-serif; */
   font-family: Hando Soft Trial, Verdana;
   font-size: 30px;
   line-height: 30px;
-  color: #f7eabd;
+  color: var(--h4);
   margin: 20px;
   text-align: center;
 }
 .movie-container h3 {
   font-family: "Yuji Mai", serif;
   font-size: 34px;
-  color: #f7eabd;
+  color: var(--h3);
   margin: 0;
+  line-height: 30px;
 }
 .description {
   font-family: "KIDS Text", sans-serif;
@@ -34,5 +35,5 @@ font-family: 'KIDS Text', sans-serif; */
 .production {
   font-family: "Hando Soft Trial", sans-serif;
   text-transform: uppercase;
-  color: #f7eabd;
+  color: var(--text-secondary);
 }

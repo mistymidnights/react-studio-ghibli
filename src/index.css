@@ -50,15 +50,41 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+
+[data-theme="dark"] {
+  --background: rgb(19, 26, 47);
+  --text-primary: #f7eabd;
+  --button: #f7eabd;
+  --h3: #f7eabd;
+  --h4: #f7eabd;
+  --text-secondary: white;
+}
+[data-theme="light"] {
+  --background: #f8f2e0;
+  --text-primary: rgb(19, 26, 47);
+  --button: rgba(19, 26, 47, 0.581);
+  --h3: rgb(19, 26, 47);
+  --h4: rgb(19, 26, 47);
+  --text-secondary: rgb(9, 78, 163);
+}
+
+.entireApp {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+button {
+  color: var(--background);
+  background-color: var(--button);
+  border: 2px var(--background) solid;
+  float: right;
+  transition: all 0.5s;
 }
